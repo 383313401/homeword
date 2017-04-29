@@ -1,0 +1,277 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset=UTF-8">
+    <title>HTML5/CSS3画五星红旗</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        #flag_bg {
+            margin: 10px;
+            height: 410px;
+            width: 750px;
+            background: #FF0000;
+            position: relative;
+        }
+        #big_star {
+            height: 104px;
+            width: 104px;
+            background: #FFFF00;
+            position: absolute;
+            top: 60px;
+            left: 50px;
+        }
+        .big_tool {
+            background: #FF0000;
+            height: 40px;
+            width: 60px;
+            position: absolute;
+        }
+        #angle_a {
+            top: -12px;
+            left: -13px;
+            -webkit-transform: rotate(20deg);
+        }
+        #angle_aa {
+            top: -3px;
+            left: -23px;
+        }
+        #angle_b {
+            top: -12px;
+            right: -13px;
+            -webkit-transform: rotate(-20deg);
+        }
+        #angle_bb {
+            top: -3px;
+            right: -23px;
+        }
+        #angle_c {
+            top: 39px;
+            left: -34px;
+            -webkit-transform: rotate(34deg);
+        }
+        #angle_d {
+            top: 39px;
+            right: -34px;
+            -webkit-transform: rotate(-33deg);
+        }
+        #angle_e {
+            top: 49px;
+            left: -35px;
+            -webkit-transform: rotate(23deg);
+        }
+        #angle_f {
+            top: 87px;
+            left: 9px;
+            -webkit-transform: rotate(-35deg);
+        }
+        #angle_g {
+            top: 47px;
+            right: -34px;
+            -webkit-transform: rotate(-23deg);
+        }
+        #angle_h {
+            top: 86px;
+            right: 8px;
+            -webkit-transform: rotate(35deg);
+        }
+        #angle_i {
+            height: 20px;
+            width: 20px;
+            top: 85px;
+            left: -5px;
+        }
+        #angle_j {
+            height: 20px;
+            width: 20px;
+            top: 85px;
+            right: -4px;
+        }
+        .small_star {
+            height: 104px;
+            width: 104px;
+            background: #FFFF00;
+            position: absolute;
+        }
+        .small_star .small_tool {
+            background: #FF0000;
+            height: 40px;
+            width: 60px;
+            position: absolute;
+            overflow: hidden;
+        }
+        .small_star .angle_a {
+            top: -12px;
+            left: -4px;
+            -moz-transform: rotate(20deg);
+            -webkit-transform: rotate(20deg);
+            -ms-transform: rotate(20deg);
+        }
+        .small_star .angle_aa {
+            top: -3px;
+            left: -14px;
+        }
+        .small_star .angle_b {
+            top: -12px;
+            right: -4px;
+            -webkit-transform: rotate(-20deg);
+        }
+        .small_star .angle_bb {
+            top: -3px;
+            right: -14px;
+        }
+        .small_star .angle_c {
+            top: 24px;
+            left: -22px;
+            -webkit-transform: rotate(34deg);
+        }
+        .small_star .angle_d {
+            top: 24px;
+            right: -22px;
+            -webkit-transform: rotate(-33deg);
+        }
+        .small_star .angle_e {
+            top: 32px;
+            left: -20px;
+            -webkit-transform: rotate(20deg);
+        }
+        .small_star .angle_f {
+            top: 60px;
+            left: 9px;
+            -webkit-transform: rotate(-35deg);
+        }
+        .small_star .angle_g {
+            top: 31px;
+            right: -20px;
+            -webkit-transform: rotate(-20deg);
+        }
+        .small_star .angle_h {
+            top: 60px;
+            right: 8px;
+            -webkit-transform: rotate(35deg);
+        }
+        .small_star .angle_i {
+            height: 45px;
+            width: 115px;
+            top: 65px;
+            left: -5px;
+        }
+        .small_star .angle_j {
+            height: 45px;
+            width: 25px;
+            top: 65px;
+            right: -4px;
+        }
+        #flag_bg .star {
+            height: 40px;
+            width: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        #one {
+            top: 20px;
+            left: 160px;
+        }
+        #two {
+            top: 35px;
+            left: 194px;
+        }
+        #three {
+            top: 60px;
+            left: 190px;
+        }
+        #four {
+            top: 65px;
+            left: 145px;
+        }
+        #small_one, #small_two, #small_three, #small_four {
+            margin-left: -30px;
+            margin-top: -24px;
+        }
+    </style>
+</head>
+<body>
+<div id="flag_bg">
+    <div id="big_star" class="">
+        <div id="angle_a" class="big_tool"></div>
+        <div id="angle_aa" class="big_tool"></div>
+        <div id="angle_b" class="big_tool"></div>
+        <div id="angle_bb" class="big_tool"></div>
+        <div id="angle_c" class="big_tool"></div>
+        <div id="angle_d" class="big_tool"></div>
+        <div id="angle_e" class="big_tool"></div>
+        <div id="angle_f" class="big_tool"></div>
+        <div id="angle_g" class="big_tool"></div>
+        <div id="angle_h" class="big_tool"></div>
+        <div id="angle_i" class="big_tool"></div>
+        <div id="angle_j" class="big_tool"></div>
+    </div>
+    <div id="one" class="star">
+        <div id="small_one" class="small_star">
+            <div class="angle_a small_tool"></div>
+            <div class="angle_aa small_tool"></div>
+            <div class="angle_b small_tool"></div>
+            <div class="angle_bb small_tool"></div>
+            <div class="angle_c small_tool"></div>
+            <div class="angle_d small_tool"></div>
+            <div class="angle_e small_tool"></div>
+            <div class="angle_f small_tool"></div>
+            <div class="angle_g small_tool"></div>
+            <div class="angle_h small_tool"></div>
+            <div class="angle_i small_tool"></div>
+            <div class="angle_j small_tool"></div>
+        </div>
+    </div>
+    <div id="two" class="star">
+        <div id="small_two" class="small_star">
+            <div class="angle_a small_tool"></div>
+            <div class="angle_aa small_tool"></div>
+            <div class="angle_b small_tool"></div>
+            <div class="angle_bb small_tool"></div>
+            <div class="angle_c small_tool"></div>
+            <div class="angle_d small_tool"></div>
+            <div class="angle_e small_tool"></div>
+            <div class="angle_f small_tool"></div>
+            <div class="angle_g small_tool"></div>
+            <div class="angle_h small_tool"></div>
+            <div class="angle_i small_tool"></div>
+            <div class="angle_j small_tool"></div>
+        </div>
+    </div>
+    <div id="three" class="star">
+        <div id="small_three" class="small_star">
+            <div class="angle_a small_tool"></div>
+            <div class="angle_aa small_tool"></div>
+            <div class="angle_b small_tool"></div>
+            <div class="angle_bb small_tool"></div>
+            <div class="angle_c small_tool"></div>
+            <div class="angle_d small_tool"></div>
+            <div class="angle_e small_tool"></div>
+            <div class="angle_f small_tool"></div>
+            <div class="angle_g small_tool"></div>
+            <div class="angle_h small_tool"></div>
+            <div class="angle_i small_tool"></div>
+            <div class="angle_j small_tool"></div>
+        </div>
+    </div>
+    <div id="four" class="star">
+        <div id="small_four" class="small_star">
+            <div class="angle_a small_tool"></div>
+            <div class="angle_aa small_tool"></div>
+            <div class="angle_b small_tool"></div>
+            <div class="angle_bb small_tool"></div>
+            <div class="angle_c small_tool"></div>
+            <div class="angle_d small_tool"></div>
+            <div class="angle_e small_tool"></div>
+            <div class="angle_f small_tool"></div>
+            <div class="angle_g small_tool"></div>
+            <div class="angle_h small_tool"></div>
+            <div class="angle_i small_tool"></div>
+            <div class="angle_j small_tool"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
